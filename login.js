@@ -8,7 +8,8 @@ exports.login = async (req, res) => {
     try {
         console.log("Attempting to connect to Oracle DB...");
         connection = await getConnection();
-        console.log("✅ Connected to Oracle!");
+    console.log("✅ Connected to Oracle!");
+    // NOTE: feature-password-reset - demo comment added on this branch
         const result = await connection.execute(
             "SELECT id, password_hash FROM users WHERE username = :1",
             [username]
