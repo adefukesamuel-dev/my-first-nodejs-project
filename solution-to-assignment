@@ -1,0 +1,7 @@
+git add
+git checkout -b (branch name)
+git pull origin main
+False
+It means a merge conflict
+It’s used to suggest changes in a branch
+They make it easier to track changes, debug issues, and review code.
