@@ -1,3 +1,11 @@
+What command stages changes for commit?
+How do you create and switch to a new branch in one command?
+Which command updates your local branch with the latest from main using a merge?
+True/False: git rebase is safe to use on branches shared by other developers.
+When you see <<<<<<< HEAD in a file, what does it mean?
+What is a Pull Request (PR) used for?
+Give one reason to prefer small, frequent commits.
+
 git add
 git checkout -b (branch name)
 git pull origin main
