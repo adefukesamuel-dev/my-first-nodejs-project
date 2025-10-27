@@ -9,9 +9,9 @@
 
 🔹 2. What is Git?Git is an open-source Distributed Version Control System created by Linus Torvalds (creator of Linux) in 2005.It tracks changes in source code, supports non-linear workflows, and allows developers to collaborate efficiently.
 
-**Key Git Concept****s**:
+**Key Git** **Concept Description**
 
--   **Concept Description Repository (Repo):** The project folder that Git tracks. It contains all project files and history. 
+-    **Repository (Repo):** The project folder that Git tracks. It contains all project files and history. 
 -   **Commit:** A snapshot of your project’s files at a specific point in time.
 -   **Branch:** A separate line of development that allows you to work independently from the main code.Merge Combines changes from one branch into another.
 -   **Clone**: Creates a copy of a repository from a remote source (e.g., GitHub).Push Sends your local commits to a remote repository.
@@ -22,8 +22,8 @@
 
 Git WorkflowThe Git workflow typically follows this sequence:
 
-3.  Initialize a repository***git init*** (Creates a .git folder to start tracking your project.)
-4.  Check the status of files***git status***
+3.  Initialize a repository ***git init*** (Creates a .git folder to start tracking your project.)
+4.  Check the status of files ***git status***
 5.  Add files to staging
 
 # Version Control (Git) and GitHub — Teaching Guide
@@ -32,7 +32,7 @@ This document is a compact, student-friendly guide covering core Git concepts, c
 
 ## 1 — Why version control?
 
--   **​**Tracks every change to your codebase
+-   Tracks every change to your codebase
 -   Lets you revert to previous states
 -   Enables safe collaboration between multiple developers
 -   Keeps a history and context for why changes were made
@@ -139,7 +139,7 @@ Bonus (optional):
 ## 11 — Quick cheat sheet (copyable)
 
 ```bash
-# create & switch to branchgit checkout -b feature/example# make changesgit add .git commit -m "feat: short description"# keep updated with main (merge)git fetch origingit merge origin/main# or (rebase)git fetch origingit rebase origin/main# push branchgit push -u origin feature/example
+# create & switch to branch
 ```
 
 ---
