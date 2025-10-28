@@ -1,0 +1,3 @@
+The conflict occured because the main branch and the feature branch both made changes to the same file (intro.txt)
+I manually changed the files to have both changes. Then I staged it and continued rebasing.
+Rebase replaces commits from one branch on top of another while merge joins two branches into one new commit
