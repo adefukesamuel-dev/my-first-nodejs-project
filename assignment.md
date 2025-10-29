@@ -1,6 +1,6 @@
 Git Rebase Assignment: "Conflict Resolution Challenge"
 
-#### ObjectiveStudents will simulate a real-world scenario where two developers modify the same file on different branches. They’ll use git rebase to replay commits and resolve a conflict.
+#### Objective: Students will simulate a real-world scenario where two developers modify the same file on different branches. They’ll use git rebase to replay commits and resolve a conflict.
 
 Instructions
 
